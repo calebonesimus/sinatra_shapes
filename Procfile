@@ -1,1 +1,1 @@
-web: bundle exec ruby sinatra_shapes.rb -p $PORT
+web: bundle exec ruby sinatra_app.rb -p $PORT
