@@ -1,5 +1,10 @@
 require 'sinatra'
 
+get '/' do
+  erb :index
+
+end
+
 # Creates box with url params
 get '/box/:width/:height' do |width, height|
   @width = width
